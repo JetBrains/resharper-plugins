@@ -14,7 +14,7 @@ To build the source, you need the [ReSharper 7 SDK](http://www.jetbrains.com/res
 
 If you wish to just install a copy of the plugins without building yourself:
 
-- Visit the downloads section on GitHub
+- Visit the [downloads section on GitHub](https://github.com/JetBrains/resharper-plugins/downloads)
 - Download the latest zip file
 - Extract everything
 - Run the install.bat file
