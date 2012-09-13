@@ -15,15 +15,15 @@ mkdir "%PER_USER_PLUGINDIR%"
 
 :do_copy
 echo Copying files...
-copy /y %INSTALL_SOURCEDIR%\*.dll "%PER_USER_PLUGINDIR%"
-copy /y %INSTALL_SOURCEDIR%\*.pdb "%PER_USER_PLUGINDIR%" 2> NUL
+copy /y "%INSTALL_SOURCEDIR%\*.dll" "%PER_USER_PLUGINDIR%"
+copy /y "%INSTALL_SOURCEDIR%\*.pdb" "%PER_USER_PLUGINDIR%" 2> NUL
 
 echo.
 
 REM See https://github.com/citizenmatt/UnblockZoneIdentifier
 echo Unblocking downloaded files...
-pushd %PER_USER_PLUGINDIR%
-for /r %%i in (*) do %~dp0\UnblockZoneIdentifier %%i
+pushd "%PER_USER_PLUGINDIR%"
+for /r %%i in (*) do "%~dp0\UnblockZoneIdentifier" "%%i"
 popd
 
 :end
