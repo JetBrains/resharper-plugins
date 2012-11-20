@@ -8,7 +8,7 @@ The repository contains the following plugins:
 
 ## Building ##
 
-To build the source, you need the [ReSharper 7 SDK](http://www.jetbrains.com/resharper/download/index.html) installed. Then just open the resharper-plugins.sln file and build.
+To build the source, you need the [ReSharper 7.1 SDK](http://www.jetbrains.com/resharper/download/index.html) installed. Then just open the resharper-plugins.sln file and build.
 
 ## Installing ##
 
