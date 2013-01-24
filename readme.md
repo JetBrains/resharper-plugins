@@ -14,8 +14,7 @@ To build the source, you need the [ReSharper 7.1 SDK](http://www.jetbrains.com/r
 
 If you wish to just install a copy of the plugins without building yourself:
 
-- Visit the [downloads section on GitHub](https://github.com/JetBrains/resharper-plugins/downloads)
-- Download the latest zip file
+- Download the latest zip file: [ShowMvcVerbs.1.0.zip](http://download.jetbrains.com/resharper/plugins/ShowMvcVerbs.1.0.zip)
 - Extract everything
 - Run the install.bat file
 
